@@ -1,0 +1,40 @@
+{
+  "name": "react-simple-calculator",
+  "version": "1.0.0",
+  "description": "A react package for basic arithmetic operations with minimal ui",
+  "main": "dist/index.js", 
+  "module": "dist/index.es.js",
+  "files": ["dist"],
+  "types": "dist/index.d.ts", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Presth/simple-calculator.git"
+  },
+  "keywords": [
+    "Peaky",
+    "Simple",
+    "Calculator"
+  ],
+  "author": "Peaky P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Presth/simple-calculator/issues"
+  },
+  "homepage": "https://github.com/Presth/simple-calculator#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.26.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "babel-cli": "^6.26.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "rollup": "^4.36.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
